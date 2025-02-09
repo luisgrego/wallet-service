@@ -32,7 +32,7 @@ git clone https://github.com/seu-usuario/wallet-service.git
 cd wallet-service
 
 ### Configurar o Banco de Dados
-O projeto já vem configurado para rodar com H2 Database. Caso queira rodar com PostgreSQL, altere as configurações no `application.properties`.
+O projeto já vem configurado para rodar com H2 Database. 
 
 ### Executar a Aplicação
 #### Rodar com Maven
@@ -103,6 +103,3 @@ Os guias a seguir demonstram como utilizar alguns dos recursos deste projeto:
 - [Servindo conteúdo web com Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 - [Construindo serviços REST com Spring](https://spring.io/guides/tutorials/rest/)
 - [Acessando dados com JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-
-## Sobre Herança do Maven Parent
-O Maven herda elementos do `parent POM` para o `project POM`. Isso inclui metadados como `<license>` e `<developers>`. Como esses elementos podem não ser desejados, o projeto POM contém substituições vazias para evitar heranças indesejadas. Se precisar alterar o `parent POM`, remova essas substituições conforme necessário.
